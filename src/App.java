@@ -12,9 +12,9 @@ public class App {
     }
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Ingrese un número: ");
         int numero = scanner.nextInt();
-        System.out.println("Factorial of " + numero + " is: " + factorial(numero));
+        System.out.println("El factorial de " + numero + " es: " + factorial(numero));
         scanner.close();
     }
 }
